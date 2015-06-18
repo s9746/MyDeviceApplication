@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MyDeviceApplication</string>
+    <string name="app_name">Beams Strength</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string-array name="groups">
@@ -9,10 +9,19 @@
         <item>HEM</item>
     </string-array>
     <string-array name="beams">
-        <item>belka1</item>
-        <item>belka2</item>
+        <item>@array/Beam1</item>
+        <item>@array/Beam2</item>
     </string-array>
-
+    <string-array name="Beam1">
+        <item name="Group">HEB</item>
+        <item name="Size">300</item>
+        <item name="Wx">100</item>
+    </string-array>
+    <string-array name="Beam2">
+        <item name="Group">HEB</item>
+        <item name="Size">240</item>
+        <item name="Wx">100</item>
+    </string-array>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_group">GroupActivity</string>

@@ -18,8 +18,8 @@ import com.example.agata.mydeviceapplication.R;
 /**
  * A placeholder fragment containing a simple view.
  */
-public class MainActivityFragment extends Fragment implements OnItemClickListener {
-
+public class MainActivityFragment extends Fragment implements AdapterView.OnItemClickListener {
+    ListView theGroupsView;
     Communicator communicator;
 
     @Override
@@ -30,7 +30,7 @@ public class MainActivityFragment extends Fragment implements OnItemClickListene
         //String[] beamsGroups = {"HEB", "INP", "IPE", "HEM"};
 
         ArrayAdapter theAdapter = ArrayAdapter.createFromResource(getActivity(), R.array.groups, android.R.layout.simple_list_item_1);
-        ListView theGroupsView = (ListView) view.findViewById(R.id.theGroupsView);
+        theGroupsView = (ListView) view.findViewById(R.id.theGroupsView);
         theGroupsView.setAdapter(theAdapter);
         theGroupsView.setOnItemClickListener(this);
 
