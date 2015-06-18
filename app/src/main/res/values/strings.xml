@@ -2,4 +2,18 @@
     <string name="app_name">MyDeviceApplication</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string-array name="groups">
+        <item>HEB</item>
+        <item>INP</item>
+        <item>IPE</item>
+        <item>HEM</item>
+    </string-array>
+    <string-array name="beams">
+        <item>belka1</item>
+        <item>belka2</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_group">GroupActivity</string>
 </resources>
